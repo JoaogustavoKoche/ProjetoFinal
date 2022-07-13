@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+
+.containerCount{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .countdownTextRefresh{
+        width: 5%;
+        display: flex;
+        text-align: end;
+        vertical-align: middle;
+        margin-right: 2%;
+        color: #FFFFFF;
+        font-family: "Maven Pro", sans-serif;
+    }
+    .countdown{
+        display: inline-block;
+        font-size: 0.8em;
+        vertical-align: middle;
+        
+        .countdownNumberText{
+            display: inline-block;
+            .countdownTextSeconds{
+                text-align: center;
+                color: #FFFFFF;
+                font-family: "Maven Pro", sans-serif;
+            }
+            .countdownNumber{
+                font-size: 3.2em;
+                font-weight: 700;
+                color: #FFFFFF;
+                font-family: "Maven Pro", sans-serif;
+                
+            }
+        }
+    }
+}

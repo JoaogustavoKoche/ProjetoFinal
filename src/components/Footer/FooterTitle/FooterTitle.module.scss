@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+
+.FTitleContainer{
+    text-align: end;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px 0px 0px;
+    .title{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+        text-align: right;
+        color: #FFFFFF;
+        font-family: "Maven Pro", sans-serif;
+    }
+}
+

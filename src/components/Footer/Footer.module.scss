@@ -1,0 +1,24 @@
+.footer{
+    position: fixed;
+    bottom:0;
+    display: flex;
+    background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    .containerF{
+        display: flex;
+        display: contents;
+        .FooterT{
+            display: flex;
+            width: 30%;
+            margin-left: 200px;
+
+        }
+
+
+        .FooterCh{
+            display: flex;
+        }
+    }
+}
