@@ -9,10 +9,9 @@ export default function Footer(){
     return(
         <footer className={styles.footer}>
             <div className={styles.containerF}>
-                <div className={styles.FooterT}>
-                    <FooterTitle/>
-                </div>
-            
+                    <div className={styles.FooterT}>
+                        <FooterTitle/>
+                    </div>
                 <div className={styles.FooterCh}>
                     <Chrono/>
                 </div>

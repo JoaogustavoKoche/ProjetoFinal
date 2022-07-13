@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
 
 
+.containerFL{
+    display: flex;
+    align-items: center;
+
 .FTitleContainer{
     text-align: end;
     display: flex;
@@ -17,3 +21,16 @@
     }
 }
 
+.line{
+    height: 61px;
+    width: 0px;
+    vertical-align: middle;
+    color: white;
+    display: inline-block;
+    border: solid 0.5px white;
+    margin: 0%;
+    margin-right: 0%;
+    background-color: white;
+}
+
+}
