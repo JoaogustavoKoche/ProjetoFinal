@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+.containerMain{
+	width: 50%;
+	display: flex;
+    justify-content: center;
+	.containerForm{
+		width: 50%;
+		display: flex;
+    	flex-direction: column;
+		justify-content: space-evenly;
+		.titleContainer{
+			margin-bottom: 20px;
+			font-family: 'Maven Pro', sans-serif;
+			color: #E0E0E0;
+			display: flex;
+			flex-direction: column;
+			.containerTitle{
+				font-weight: 400;
+				font-size: 60px;
+				line-height: 76px;
+				display: flex;
+				margin-left: 89px;
+    			margin-bottom: 3px;
+			}
+			.containerText{
+				font-weight: 400;
+				font-size: 16px;
+				line-height: 20px;
+				display: flex;
+    			text-align: left;
+				margin-left: 83px;
+			}
+		}
+
+		.form{
+			display: inline-grid;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			margin-bottom: 10px;
+			
+			p{
+				display: flex;
+				font-weight: 400;
+				font-size: 30px;
+				line-height: 38px;
+				color: #E0E0E0;
+				font-family: 'Maven Pro', sans-serif;
+				margin-left: 30px;
+				
+			}
+		}
+
+
+
+
+		.errorContainer{
+			display: none;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			width: 100%;
+			span {
+				color: #E9B425;
+				font-weight: bold;
+				font-size: 0.8rem;
+				margin: 0;
+				font-family: 'Maven Pro', sans-serif;
+			}
+			&__active {
+				display: flex;
+			}
+		}
+
+		.containerButton{
+			display: flex;
+			margin-left: 23px;
+			width: 97%;
+			margin-top: 40px;
+		
+			.Button{
+				color: white;
+				background: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
+				font-weight: 700;
+				border: none;
+				border-radius: 40px;
+				line-height: 23px;
+				font-size: 0.7em;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				width: 96%;
+			}
+		}
+	}
+
+
+
+	.footerText{
+		font-family: 'Maven Pro', sans-serif;
+		color: #E0E0E0;
+		font-size: 13px;
+
+		a{
+			color: #E9B425;
+			text-decoration: none;
+		}
+	}
+}

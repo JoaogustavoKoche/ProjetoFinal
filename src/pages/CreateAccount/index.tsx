@@ -1,5 +1,5 @@
 import React from "react";
-import Forms from "../../components/LoginComponents/Form/Index";
+import FormsCreate from "../../components/CreateAcComponents/Form/Index";
 import Logo from "../../components/LoginComponents/Img";
 
 
@@ -7,10 +7,10 @@ import styles from './Login.module.scss';
 
 
 
-export default function Login(){
+export default function Create(){
     return(
         <div className={styles.login}>         
-            <Forms/>
+            <FormsCreate/>
             <Logo/>
         </div>
     )

@@ -1,0 +1,51 @@
+
+
+.inputContainer{
+    display: flex;
+    margin: 25px;
+    width: 100%;
+
+    .formInput{
+        width: 100%;
+        background: transparent;
+        color: white;
+        border: 1px solid white;
+        outline: none;
+        border-radius: 30px;
+        font-size: 0.8rem;
+        padding: 15px 125px 15px 20px;
+        &:hover, &:focus {
+            background-color: #33383D;
+        }
+    }
+
+    .userIcon, .passIcon {
+        width: 15px;
+        margin-left: 20px;
+    }
+
+
+
+    .userActive {
+        padding-right: 12%;
+        background-image: url("../../../../assets/IconUser.svg");
+        background-repeat: no-repeat;
+        background-position: center right 5%;
+        background-size: 15px;
+        transition: 0s;
+    }
+
+
+    .passActive {
+        padding-right: 12%;
+        background-image: url("../../../../assets/IconPass.svg");
+        background-repeat: no-repeat;
+        background-position: center right 5%;
+        background-size: 15px;
+        transition: 0s;
+    }
+
+    .inactiveIcon {
+        display: none;
+    }
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from './TitlesNav.module.scss';
-import logobol from "../../../assets/BolaLogoCompasso.png";
+import logobol from "../../../../assets/BolaLogoCompasso.png";
 
 
 

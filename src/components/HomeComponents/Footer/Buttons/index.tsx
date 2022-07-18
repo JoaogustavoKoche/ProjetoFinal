@@ -8,10 +8,9 @@ export default function Buttons(){
     const navigate = useNavigate();
     return(
         <div className={styles.containerButtons}>
-            <a href="https://google.com" target="_blank">
+            <a href="https://google.com" target="_blank" rel="noreferrer">
                 <button className={styles.continue}>Continuar Navegando</button>
             </a>
-
             <button className={styles.logout} onClick={()=> navigate('/')} >Logout</button>
         </div>
     );

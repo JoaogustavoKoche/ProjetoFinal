@@ -1,7 +1,7 @@
 import React from "react";
-import Content from "../../components/Content";
-import Footer from "../../components/Footer";
-import Navbar from "../../components/Nav";
+import Content from "../../components/HomeComponents/Content";
+import Footer from "../../components/HomeComponents/Footer";
+import Navbar from "../../components/HomeComponents/Nav";
 
 export default function Home(){
     return(
