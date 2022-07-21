@@ -7,6 +7,9 @@ import logobol from "../../../../assets/BolaLogoCompasso.png";
 export default function TitlesNav(){
     return(
         <>
+        <div className={styles.contentContainer}>
+
+        
         <img src={logobol} alt="Logo Compasso" className={styles.logoBolaComps}/>
         <div className={styles.text}> 
             <div className={styles.textEngSm}>
@@ -36,6 +39,7 @@ export default function TitlesNav(){
             <div className={styles.textPtSm}>
                 que permitam o crescimento de nossos clientes
             </div>
+        </div>
         </div>
         </>
     )

@@ -1,36 +1,38 @@
-import EmailInput from "./Inputs/emailInput";
+/* eslint-disable @typescript-eslint/no-unused-vars */
+
 import styles from './Forms.module.scss';
 import PasswordInput from "./Inputs/passwordInput";
 import classNames from "classnames";
-import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-
+import EmailInput from './Inputs/emailInput';
+import { useContext, useState} from 'react';
+import { UserContext } from '../../Context/User';
+import { browserLocalPersistence, onAuthStateChanged, setPersistence, signInWithEmailAndPassword } from 'firebase/auth';
+import { auth } from '../../../firebase-config';
 
 export default function Forms() {
 
 	const navigate = useNavigate();
-	const [errorActive, setErrorActive] = useState(false);
-	
-	function validateForm(event: { preventDefault: () => void; }) {
-		let inputs = document.querySelectorAll("input");
-		/* let valid = true; */
-		inputs.forEach(input => {
-			if(input.value === "") {
-				/* valid = false; */
-				input.style.border = "1px solid #E9B425";
-				setErrorActive(true);
-				event?.preventDefault()
-			}else{
-				redirectToHome()
-			}
-		});
-	}
+	const { setUser, email, password, setEmail, setPassword, setError, error } = useContext(UserContext);
 
-	function redirectToHome() {
-		navigate("/home");
-	}
-	
-	
+    async function login() {
+        setPersistence(auth, browserLocalPersistence).then(async ()=> {
+            try {
+                const user =  await signInWithEmailAndPassword(auth, email, password);
+                setEmail('');
+                setPassword('');
+                console.log(user);
+                navigate('/home');
+				setError(false);
+            } catch (error) {
+                setError(true);
+            }
+        })
+    }
+
+    onAuthStateChanged(auth, (currentUser) => {
+        setUser(currentUser);
+    })
 
 
 	return (
@@ -50,7 +52,7 @@ export default function Forms() {
 
 					<div className={classNames({
 						[styles.errorContainer]: true,
-						[styles.errorContainer__active]: errorActive
+						[styles.errorContainer__active]: error
 						})}>
 						<span>
 							Ops, usuário ou senha inválidos.
@@ -60,9 +62,13 @@ export default function Forms() {
 					</div>
 
 					<div className={styles.containerButton}>
-						<button className={styles.Button}
-								onClick={validateForm}
-						>Continuar</button>
+						<button 
+							className={styles.Button}
+							onClick={(event)=> {
+								event.preventDefault();
+								login();
+							}}
+							>Continuar</button>
 					</div>
 				</form>
 				<div className={styles.footerText}>

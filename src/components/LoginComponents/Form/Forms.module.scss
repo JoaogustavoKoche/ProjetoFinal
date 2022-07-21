@@ -109,3 +109,188 @@
 		}
 	}
 }
+
+
+
+@media screen and (max-width: 1919px){
+	.containerMain{
+		.containerForm{
+			.titleContainer{
+				.containerText{
+					margin-left: 30px;
+				}
+				.containerTitle{
+					margin-left: 35px;
+				}
+			}
+		}
+	}
+}
+
+
+
+@media screen and (max-width: 1440px){
+	.containerMain{
+		.containerForm{
+			.titleContainer{
+				.containerText{
+					margin-left: 21px;
+				}
+				.containerTitle{
+					margin-left: 22px;
+				}
+			}
+		}
+	}
+}
+
+
+
+@media screen and (max-width: 1024px){
+	.containerMain{
+		.containerForm{
+			.titleContainer{
+				.containerText{
+					margin-left: 24px;
+				}
+				.containerTitle{
+					margin-left: 24px;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+@media screen and (max-width: 768px){
+	.containerMain{
+		.containerForm{
+			.titleContainer{
+				.containerText{
+					margin-left: 0px;
+				}
+				.containerTitle{
+					margin-left: 0px;
+				}
+			}
+		}
+	}
+}
+
+
+
+@media screen and (max-width: 425px){
+	.containerMain{
+		margin-right: 20px;
+		.containerForm{
+			width: 100%;
+			.titleContainer{
+				.containerText{
+					margin-left: 0px;
+					
+				}
+				.containerTitle{
+					margin-left: 0px;
+					
+				}
+				.form{
+					margin-bottom: 10px;
+					margin-right: 30px;
+				}
+			}
+		}
+		.footerText{
+			margin-left: 20px;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 425px){
+	.containerMain{
+		margin-right: 20px;
+		.containerForm{
+			width: 100%;
+			.titleContainer{
+				.containerText{
+					margin-left: 0px;
+					
+				}
+				.containerTitle{
+					margin-left: 0px;
+					
+				}
+				.form{
+					margin-bottom: 10px;
+					margin-right: 30px;
+				}
+			}
+		}
+	}
+	.footerText{
+		margin-left: 20px;
+	}
+}
+
+
+@media screen and (max-width: 375px){
+	.containerMain{
+		margin-right: 20px;
+		.containerForm{
+			width: 100%;
+			.titleContainer{
+				.containerText{
+					margin-left: 0px;
+					
+				}
+				.containerTitle{
+					margin-left: 0px;
+					
+				}
+				.form{
+					margin-bottom: 10px;
+					margin-right: 30px;
+				}
+			}
+		}
+		.footerText{
+			margin-left: 20px;
+		}
+	}
+}
+
+
+@media screen and (max-width: 320px){
+	.containerMain{
+		margin-right: 20px;
+		.containerForm{
+			width: 100%;
+			.titleContainer{
+				.containerText{
+					margin-left: 0px;
+					
+				}
+				.containerTitle{
+					margin-left: 0px;
+					
+				}
+				.form{
+					margin-bottom: 10px;
+					margin-right: 30px;
+				}
+			}
+		}
+
+		.footerText{
+			margin-left: 20px;
+		}
+	}
+}

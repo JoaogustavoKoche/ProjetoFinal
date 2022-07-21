@@ -1,51 +1,145 @@
 
+.Ns{
 
-.inputContainer{
-    display: flex;
-    margin: 25px;
-    width: 100%;
 
-    .formInput{
+    .inputContainer{
+        display: flex;
+        margin: 25px;
         width: 100%;
-        background: transparent;
-        color: white;
-        border: 1px solid white;
-        outline: none;
-        border-radius: 30px;
-        font-size: 0.8rem;
-        padding: 15px 125px 15px 20px;
-        &:hover, &:focus {
-            background-color: #33383D;
+
+        .formInput{
+            width: 100%;
+            background: transparent;
+            color: white;
+            border: 1px solid white;
+            outline: none;
+            border-radius: 30px;
+            font-size: 0.8rem;
+            padding: 15px 125px 15px 20px;
+            &:hover, &:focus {
+                background-color: #33383D;
+            }
+        }
+
+        .userIcon, .passIcon {
+            width: 15px;
+            margin-left: 20px;
+        }
+
+        .inputErro{
+            border: 1px solid #E9B425;
+        }
+
+        .userActive {
+            padding-right: 12%;
+            background-image: url("../../../../assets/IconUser.svg");
+            background-repeat: no-repeat;
+            background-position: center right 5%;
+            background-size: 15px;
+            transition: 0s;
+        }
+
+
+        .passActive {
+            padding-right: 12%;
+            background-image: url("../../../../assets/IconPass.svg");
+            background-repeat: no-repeat;
+            background-position: center right 5%;
+            background-size: 15px;
+            transition: 0s;
+        }
+
+        .inactiveIcon {
+            display: none;
         }
     }
 
-    .userIcon, .passIcon {
-        width: 15px;
-        margin-left: 20px;
-    }
 
-
-
-    .userActive {
-        padding-right: 12%;
-        background-image: url("../../../../assets/IconUser.svg");
-        background-repeat: no-repeat;
-        background-position: center right 5%;
-        background-size: 15px;
-        transition: 0s;
-    }
-
-
-    .passActive {
-        padding-right: 12%;
-        background-image: url("../../../../assets/IconPass.svg");
-        background-repeat: no-repeat;
-        background-position: center right 5%;
-        background-size: 15px;
-        transition: 0s;
-    }
-
-    .inactiveIcon {
+    .teste{
         display: none;
+        .teste2{
+            display: flex;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #e90e0e;
+            font-family: "Maven Pro", sans-serif;
+            margin-left: 30px;
+        }
+
+        .green{
+            color: #08dd08;
+        }
+    }
+
+
+    .teste3{
+        display: flex;
+    }
+
+
+    .checkboxesLeft{
+        color: white;
+        margin-left: 10%;
+        margin-top: 2%;
+        font-size: 0.8em;
+        display: inline-block;
+        width: 30%;
+    }
+
+    .checkboxesRight{
+        color: white;
+        margin-top: 2%;
+        font-size: 0.8em;
+        display: inline-block;
+        width: 30%;
+    }
+
+    
+
+    .notChecked{
+        background-color: gray;
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        margin-right: 5%;
+        margin-bottom: 3%;
+        vertical-align: middle;
+    }
+
+    
+}
+
+
+
+
+
+
+@media screen and (max-width: 425px){
+    .Ns{
+        .teste3{
+            display: contents;
+        }
     }
 }
+
+
+
+
+@media screen and (max-width: 375px){
+    .Ns{
+        .teste3{
+            display: contents;
+        }
+    }
+}
+
+
+@media screen and (max-width: 320px){
+    .Ns{
+        .teste3{
+            display: contents;
+        }
+    }
+}
+

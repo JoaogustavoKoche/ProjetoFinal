@@ -11,12 +11,50 @@
         display: contents;
         .FooterT{
             display: flex;
-            width: 30%;
-            margin-left: 200px;
         }
         
         .FooterCh{
             display: flex;
         }
     }
+
+    @media only screen and (max-width: 1919px){
+        .FooterT{
+            width: 30%;
+            margin-left: 200px;
+        }
+    }
+    
+
+
+    @media only screen and (max-width: 1440px){
+        .FooterT{
+            width: 30%;
+            margin-left: 200px;
+        }
+    }
+    
+    
+    @media only screen and (max-width: 1024px){
+        .FooterT{
+            width: 48%;
+            margin-left: 61px;
+        }
+    }
+    
+    @media screen and (max-width: 768px){
+        .FooterT{
+            width: 35%;
+            margin-left: 30px;
+        }
+    }
+
+    @media screen and (max-width: 426px){
+        .FooterT{
+            width: 35%;
+            margin-left: 30px;
+        }
+    }
 }
+
+
