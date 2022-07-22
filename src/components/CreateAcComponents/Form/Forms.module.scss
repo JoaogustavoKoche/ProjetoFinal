@@ -136,12 +136,6 @@
 	
 }
 
-
-
-
-
-
-
 @media screen and (max-width: 1919px){
 	.containerMain{
 		.containerForm{
@@ -210,6 +204,32 @@
 }
 
 
+@media screen and (max-width: 637px){
+	.containerMain{
+		margin-right: 20px;
+		.containerForm{
+			width: 100%;
+			.titleContainer{
+				.containerText{
+					margin-left: 0px;
+					
+				}
+				.containerTitle{
+					margin-left: 0px;
+					
+				}
+				.form{
+					margin-bottom: 10px;
+					margin-right: 30px;
+				}
+			}
+		}
+	}
+	.footerText{
+		margin-left: 20px;
+	}
+}
+
 
 @media screen and (max-width: 425px){
 	.containerMain{
@@ -236,12 +256,6 @@
 		}
 	}
 }
-
-
-
-
-
-
 
 
 @media screen and (max-width: 425px){

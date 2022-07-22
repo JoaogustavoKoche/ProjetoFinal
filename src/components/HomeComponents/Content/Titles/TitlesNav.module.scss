@@ -117,6 +117,13 @@
         justify-content: center;
         align-items: flex-end;
         margin-left: 45%;
+
+        .logoBolaComps{
+            width: 30%;
+            position: fixed;
+            bottom: 24%;
+            left: 0px;
+        }
         .text {
             font-family: "Maven Pro", sans-serif;
             float: right;
@@ -129,6 +136,68 @@
                 font-size: 2.3em;
                 font-weight: 700;
             }
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 425px){
+    .contentContainer{
+        align-items: center;
+        .logoBolaComps{
+            width: 29%;
+            bottom: 27%;
+        }
+        .text {
+            font-family: "Maven Pro", sans-serif;
+            float: right;
+            margin-top: 0%;
+            margin-right: 2%;
+            text-align: end;
+            width: 121%;
+            .textEng{
+                color: #C12D18;
+                font-size: 2.3em;
+                font-weight: 700;
+            }
+            .textPtSm{
+                font-size: 1.5em;
+                margin-bottom: 3%;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 375px){
+    .contentContainer{
+        .logoBolaComps{
+            width: 28%;
+            bottom: 24%;
+        }
+        .text{
+            width: 167%;
+            margin-top: 47%;
+            .textPtSm{
+                font-size: 1.7em;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .contentContainer{
+        .logoBolaComps{
+            width: 34%;
+            bottom: 25%;
+        }
+        .text{
+            width: 219%;
+            margin-top: 87%;
+        }
+        .textPtSm{
+            font-size: 2em;
         }
     }
 }
