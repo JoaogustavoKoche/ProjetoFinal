@@ -10,7 +10,7 @@ import styles from './Chrono.module.scss';
 export default function Chrono() {
 
     const navigate = useNavigate();
-    const [counter, setCounter] = React.useState(1000);
+    const [counter, setCounter] = React.useState(3600);
     const { setEmail, setPassword} = useContext(UserContext);
     
     React.useEffect(() => {

@@ -28,7 +28,6 @@ export default function PasswordInput() {
     function InputDesactive(input: HTMLInputElement) {
         setInactive(false);
         setActive(false);
-        setHideac(false);
     }
 
     function validatePassword(password: HTMLInputElement) {
@@ -61,7 +60,6 @@ export default function PasswordInput() {
             setLengthChecked(true)
         }
         if (!password.value.match(passwordReg)) {
-            //ficou redundante
             setError(true);
             setValidPassword(false);
             setInvalidPassword(true);

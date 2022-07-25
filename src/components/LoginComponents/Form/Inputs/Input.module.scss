@@ -53,3 +53,39 @@
         border: 1px solid #E9B425;
     }
 }
+
+
+
+@media only screen and (max-width: 425px){
+    .inputContainer{
+        display: initial;
+        .formInput{
+            width: auto;
+            padding: 15px 15px 15px 20px;
+        }
+    }
+}
+
+
+
+
+@media only screen and (max-width: 375px){
+    .inputContainer{
+        display: initial;
+        .formInput{
+            width: auto;
+            padding: 15px 15px 15px 20px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 320px){
+    .inputContainer{
+        display: initial;
+        .formInput{
+            width: auto;
+            padding: 15px 15px 15px 20px;
+        }
+    }
+}

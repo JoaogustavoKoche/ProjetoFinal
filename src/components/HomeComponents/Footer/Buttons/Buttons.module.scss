@@ -29,16 +29,16 @@
     .containerButtons{
         a{
             .continue{
-                font-size: 24px;
+                font-size: 19px;
                 padding: 45px 15px 45px 15px;
                 
             }
         }
 
         .logout{
-            font-size: 24px;
+            font-size: 19px;
             padding: 45px 15px 45px 15px;
-            border-style: dashed;
+            border-style: dotted;
         }
     }
 }
@@ -47,11 +47,11 @@
     .containerButtons{
         a{
             .continue{
-                font-size: 28px;
+                font-size: 17px;
             }
         }
         .logout{
-            font-size: 28px;
+            font-size: 16px;
         }
     }
 }
@@ -60,11 +60,11 @@
     .containerButtons{
         a{
             .continue{
-                font-size: 30px;
+                font-size: 16px;
             }
         }
         .logout{
-            font-size: 30px;
+            font-size: 16px;
         }
     }
 }

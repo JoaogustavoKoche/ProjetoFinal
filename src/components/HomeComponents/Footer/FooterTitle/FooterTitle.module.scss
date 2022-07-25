@@ -32,14 +32,12 @@
     }
 }
 
-@media only screen and (max-width: 426px){
+@media only screen and (max-width: 425px){
     .containerFL{
-        width: 97%;
         .FTitleContainer{
-            padding: 0px 20px 0px 0px;
             .title{
-                font-size: 21px;
-                line-height: 23px;
+                font-size: 12px;
+                line-height: 12px;
             }
         }
     }
@@ -47,12 +45,10 @@
 
 @media only screen and (max-width: 375px){
     .containerFL{
-        width: 97%;
         .FTitleContainer{
-            padding: 0px 20px 0px 0px;
             .title{
-                font-size: 24px;
-                line-height: 23px;
+                font-size: 12px;
+                line-height: 12px;
             }
         }
     }
@@ -63,8 +59,8 @@
     .containerFL{
         .FTitleContainer{
             .title{
-                font-size: 30px;
-                line-height: 32px;
+                font-size: 12px;
+                line-height: 12px;
             }
         }
     }

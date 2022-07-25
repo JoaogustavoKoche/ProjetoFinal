@@ -7,7 +7,7 @@ import Buttons from "./Buttons";
 
 export default function Footer(){
     return(
-        <footer className={styles.footer}>
+        <div className={styles.footer}>
             <div className={styles.containerF}>
                     <div className={styles.FooterT}>
                         <FooterTitle/>
@@ -17,6 +17,6 @@ export default function Footer(){
                 </div>
             </div>
             <Buttons/>
-        </footer>
+        </div>
     );
 }

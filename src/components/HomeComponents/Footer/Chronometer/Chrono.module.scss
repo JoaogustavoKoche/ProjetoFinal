@@ -39,15 +39,37 @@
     }
 }
 
-@media only screen and(max-width: 425px) {
+
+@media only screen and (max-width: 425px){
     .containerCount{
         .countdownTextRefresh{
-            font-size: 1.8em;
+            font-size: 0.8em;
         }
         .countdown{
             .countdownNumberText{
                 .countdownTextSeconds{
-                    font-size: 2em;
+                    font-size: 1.2em;
+                }
+                .countdownNumber{
+                    font-size: 2.4em;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and(max-width: 375px) {
+    .containerCount{
+        .countdownTextRefresh{
+            font-size: 0.8em;
+        }
+        .countdown{
+            .countdownNumberText{
+                .countdownTextSeconds{
+                    font-size: 1.2em;
+                }
+                .countdownNumber{
+                    font-size: 2.4em;
                 }
             }
         }
@@ -57,15 +79,15 @@
 @media only screen and (max-width: 320px){
     .containerCount{
         .countdownTextRefresh{
-            font-size: 2em;
+            font-size: 0.8em;
         }
         .countdown{
             .countdownNumberText{
                 .countdownTextSeconds{
-                    font-size: 2.4em;
+                    font-size: 1.2em;
                 }
                 .countdownNumber{
-                    font-size: 4em;
+                    font-size: 2.4em;
                 }
             }
         }
